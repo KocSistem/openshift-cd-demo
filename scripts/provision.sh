@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -eux
 
 echo "###############################################################################"
 echo "#  MAKE SURE YOU ARE LOGGED IN:                                               #"
