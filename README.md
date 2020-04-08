@@ -45,9 +45,11 @@ The application used in this pipeline is a JAX-RS application which is available
 ## Automated Deploy on OpenShift
 You can se the `scripts/provision.sh` script provided to deploy the entire demo:
 
+
   ```
   ./provision.sh --help
   ./provision.sh deploy 
+  ./provision.sh deploy --project-suffix aro 
   ./provision.sh delete 
   ```
 If you want to use Quay.io as an external registry with this demo, Go to quay.io and register for free. Then deploy the demo providing your 
